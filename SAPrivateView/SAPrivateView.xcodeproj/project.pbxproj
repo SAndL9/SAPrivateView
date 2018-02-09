@@ -16,6 +16,7 @@
 		8473FA6A1ED66AD400EC2D14 /* SAPlaceholderLabelTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8473FA691ED66AD400EC2D14 /* SAPlaceholderLabelTextView.m */; };
 		8473FA6D1ED66B6400EC2D14 /* NumberButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8473FA6C1ED66B6400EC2D14 /* NumberButton.m */; };
 		8473FA701ED66D6700EC2D14 /* SACollectionViewGridLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8473FA6F1ED66D6700EC2D14 /* SACollectionViewGridLayout.m */; };
+		84C07EBD202D4C7B00C92450 /* UITextField+NumberFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C07EBC202D4C7A00C92450 /* UITextField+NumberFormat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,9 @@
 		8473FA6C1ED66B6400EC2D14 /* NumberButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberButton.m; sourceTree = "<group>"; };
 		8473FA6E1ED66D6700EC2D14 /* SACollectionViewGridLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SACollectionViewGridLayout.h; sourceTree = "<group>"; };
 		8473FA6F1ED66D6700EC2D14 /* SACollectionViewGridLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SACollectionViewGridLayout.m; sourceTree = "<group>"; };
+		84C07EBA202D4C7A00C92450 /* UITextField+NumberFormat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+NumberFormat.h"; sourceTree = "<group>"; };
+		84C07EBB202D4C7A00C92450 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		84C07EBC202D4C7A00C92450 /* UITextField+NumberFormat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+NumberFormat.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,9 @@
 				8473FA691ED66AD400EC2D14 /* SAPlaceholderLabelTextView.m */,
 				8473FA6E1ED66D6700EC2D14 /* SACollectionViewGridLayout.h */,
 				8473FA6F1ED66D6700EC2D14 /* SACollectionViewGridLayout.m */,
+				84C07EBB202D4C7A00C92450 /* README.md */,
+				84C07EBA202D4C7A00C92450 /* UITextField+NumberFormat.h */,
+				84C07EBC202D4C7A00C92450 /* UITextField+NumberFormat.m */,
 				8473FA5A1ED66A2100EC2D14 /* Main.storyboard */,
 				8473FA5D1ED66A2100EC2D14 /* Assets.xcassets */,
 				8473FA5F1ED66A2100EC2D14 /* LaunchScreen.storyboard */,
@@ -171,6 +178,7 @@
 				8473FA561ED66A2100EC2D14 /* AppDelegate.m in Sources */,
 				8473FA6A1ED66AD400EC2D14 /* SAPlaceholderLabelTextView.m in Sources */,
 				8473FA701ED66D6700EC2D14 /* SACollectionViewGridLayout.m in Sources */,
+				84C07EBD202D4C7B00C92450 /* UITextField+NumberFormat.m in Sources */,
 				8473FA531ED66A2100EC2D14 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,6 +344,7 @@
 				8473FA671ED66A2100EC2D14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
