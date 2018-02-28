@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
-
+#import "LLProgressView.h"
 @interface ViewController ()
+
+@property (nonatomic, strong) LLProgressView *progressView;
 
 @end
 
@@ -16,9 +18,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [self testProgressView];
 }
 
+- (void)testProgressView{
+    _progressView = [[LLProgressView alloc]initWithFrame:CGRectMake(20, 60, 200, 40)];
+    _progressView.title = @"已售12345件";
+    _progressView.progress = 0.33;
+    [self.view addSubview:_progressView];
+    
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    [self.progressView playAnimation];
+    self.progressView.title = @"已售23456件";
+    _progressView.progress = 0.63;
+
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -16,6 +16,8 @@
 		8473FA6A1ED66AD400EC2D14 /* SAPlaceholderLabelTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8473FA691ED66AD400EC2D14 /* SAPlaceholderLabelTextView.m */; };
 		8473FA6D1ED66B6400EC2D14 /* NumberButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8473FA6C1ED66B6400EC2D14 /* NumberButton.m */; };
 		8473FA701ED66D6700EC2D14 /* SACollectionViewGridLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8473FA6F1ED66D6700EC2D14 /* SACollectionViewGridLayout.m */; };
+		848BDBDF20464CE900E09A96 /* LLProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 848BDBDE20464CE900E09A96 /* LLProgressView.m */; };
+		848BDBE120464D6100E09A96 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 848BDBE020464D6100E09A96 /* bg.png */; };
 		84C07EBD202D4C7B00C92450 /* UITextField+NumberFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C07EBC202D4C7A00C92450 /* UITextField+NumberFormat.m */; };
 		84C07EC0202D4CE100C92450 /* LLTextFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C07EBE202D4CE000C92450 /* LLTextFieldViewController.m */; };
 /* End PBXBuildFile section */
@@ -37,6 +39,9 @@
 		8473FA6C1ED66B6400EC2D14 /* NumberButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberButton.m; sourceTree = "<group>"; };
 		8473FA6E1ED66D6700EC2D14 /* SACollectionViewGridLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SACollectionViewGridLayout.h; sourceTree = "<group>"; };
 		8473FA6F1ED66D6700EC2D14 /* SACollectionViewGridLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SACollectionViewGridLayout.m; sourceTree = "<group>"; };
+		848BDBDD20464CE900E09A96 /* LLProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLProgressView.h; sourceTree = "<group>"; };
+		848BDBDE20464CE900E09A96 /* LLProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLProgressView.m; sourceTree = "<group>"; };
+		848BDBE020464D6100E09A96 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
 		84C07EBA202D4C7A00C92450 /* UITextField+NumberFormat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+NumberFormat.h"; sourceTree = "<group>"; };
 		84C07EBB202D4C7A00C92450 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		84C07EBC202D4C7A00C92450 /* UITextField+NumberFormat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+NumberFormat.m"; sourceTree = "<group>"; };
@@ -80,6 +85,9 @@
 				8473FA581ED66A2100EC2D14 /* ViewController.m */,
 				8473FA6B1ED66B6400EC2D14 /* NumberButton.h */,
 				8473FA6C1ED66B6400EC2D14 /* NumberButton.m */,
+				848BDBDD20464CE900E09A96 /* LLProgressView.h */,
+				848BDBE020464D6100E09A96 /* bg.png */,
+				848BDBDE20464CE900E09A96 /* LLProgressView.m */,
 				8473FA681ED66AD400EC2D14 /* SAPlaceholderLabelTextView.h */,
 				8473FA691ED66AD400EC2D14 /* SAPlaceholderLabelTextView.m */,
 				8473FA6E1ED66D6700EC2D14 /* SACollectionViewGridLayout.h */,
@@ -167,6 +175,7 @@
 			files = (
 				8473FA611ED66A2100EC2D14 /* LaunchScreen.storyboard in Resources */,
 				8473FA5E1ED66A2100EC2D14 /* Assets.xcassets in Resources */,
+				848BDBE120464D6100E09A96 /* bg.png in Resources */,
 				8473FA5C1ED66A2100EC2D14 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -183,6 +192,7 @@
 				8473FA561ED66A2100EC2D14 /* AppDelegate.m in Sources */,
 				8473FA6A1ED66AD400EC2D14 /* SAPlaceholderLabelTextView.m in Sources */,
 				8473FA701ED66D6700EC2D14 /* SACollectionViewGridLayout.m in Sources */,
+				848BDBDF20464CE900E09A96 /* LLProgressView.m in Sources */,
 				84C07EBD202D4C7B00C92450 /* UITextField+NumberFormat.m in Sources */,
 				84C07EC0202D4CE100C92450 /* LLTextFieldViewController.m in Sources */,
 				8473FA531ED66A2100EC2D14 /* main.m in Sources */,
@@ -311,8 +321,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LiLei.SAPrivateView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "7e67f3f7-3099-43e9-9307-e63a9ccb9e01";
-				PROVISIONING_PROFILE_SPECIFIER = "XC Wildcard *";
+				PROVISIONING_PROFILE = "37b78e25-3b21-4b47-8563-a9f9467efc39";
+				PROVISIONING_PROFILE_SPECIFIER = "AppStoreDevelopment *";
 			};
 			name = Debug;
 		};
@@ -326,8 +336,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LiLei.SAPrivateView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "7e67f3f7-3099-43e9-9307-e63a9ccb9e01";
-				PROVISIONING_PROFILE_SPECIFIER = "XC Wildcard *";
+				PROVISIONING_PROFILE = "37b78e25-3b21-4b47-8563-a9f9467efc39";
+				PROVISIONING_PROFILE_SPECIFIER = "AppStoreDevelopment *";
 			};
 			name = Release;
 		};
